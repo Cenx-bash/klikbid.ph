@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KlikBid</title>
+  <link rel="icon" type="image/png" href="Img/kilkbid.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="site">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="Img/kilkbid.png" alt="KlikBid Logo">
+        <h2>KlikBid</h2>
+      </div>
+
+      <nav class="nav-dots">
+        <a href="#Home" class="nav-item" title="Home">
+          <i data-lucide="home"></i><span>Home</span>
+        </a>
+        <a href="#auctions" class="nav-item" title="Auctions">
+          <i data-lucide="gavel"></i><span>Auctions</span>
+        </a>
+        <a href="#features" class="nav-item" title="Features">
+          <i data-lucide="sparkles"></i><span>Features</span>
+        </a>
+        <a href="#about" class="nav-item" title="About">
+          <i data-lucide="info"></i><span>About</span>
+        </a>
+        <a href="#contact" class="nav-item" title="Contact">
+          <i data-lucide="mail"></i><span>Contact</span>
+        </a>
+        <a href="#faq" class="nav-item" title="FAQ">
+          <i data-lucide="help-circle"></i><span>FAQ</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a class="social" href="https://facebook.com" aria-label="Facebook" target="_blank">
+          <i data-lucide="facebook"></i>
+        </a>
+        <a class="social" href="https://instagram.com" aria-label="Instagram" target="_blank">
+          <i data-lucide="instagram"></i>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main">
+      <!-- 🌟 Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1 class="hero-title">
+      <span class="highlight">KlikBid</span>
+    </h1>
+    <p class="hero-sub">
+      Your trusted online bidding platform — built for everyone.
+    </p>
+    <p class="hero-tag">
+      Buy, sell, and win your favorite items anytime, anywhere. 
+      Experience real-time auctions, secure payments, and transparent deals that you can trust.
+    </p>
+    <div class="hero-ctas">
+      <a href="#bidding.html" class="btn primary">🔥 Start Bidding</a>
+      <a href="#about" class="btn outline">Learn More</a>
+    </div>
+
+    <!-- New section added below buttons -->
+    <div class="why-create">
+      <h2>Why We Want to Create It</h2>
+      <p>
+        Filipinos crave a specific app that focuses more on auction — 
+        an app that’s organized and not complicated. 
+        <strong>KlikBid</strong> satisfies that craving by delivering interactive, 
+        exciting auctions that turn deal-hunting into a win. 
+        We're empowering both buyers and small sellers with a platform 
+        that's as fun as it is practical.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- Auctions / News Carousel -->
+      <aside class="news-wrap" aria-label="Featured Auctions" id="auctions">
+        <div class="carousel">
+          <!-- Slide 1 -->
+          <article class="news-card active">
+            <div class="news-label">LIVE</div>
+            <div class="news-image" style="background-image:url('Img/iphon15.jpeg')"></div>
+            <div class="news-content">
+              <h3>Apple iPhone 15 Pro Max</h3>
+              <p class="news-excerpt">
+                Current bid: ₱55,000 • Ends in 2h 13m — Don’t miss your chance to grab this premium smartphone at a steal.
+              </p>
+              <a href="#" class="btn small">Join Auction</a>
+              <div class="news-controls">
+                <button class="dot active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Slide 2 -->
+          <article class="news-card">
+            <div class="news-label">COMING SOON</div>
+            <div class="news-image" style="background-image:url('Img/Yamaha\ Mio\ .jpeg')"></div>
+            <div class="news-content">
+              <h3>Yamaha Mio Sporty 2024</h3>
+              <p class="news-excerpt">
+                Get ready to ride! Bidding starts October 10 — pre-register now to secure your spot.
+              </p>
+              <a href="#" class="btn small">Pre-Register</a>
+              <div class="news-controls">
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Slide 3 -->
+          <article class="news-card">
+            <div class="news-label">HIGHLIGHT</div>
+            <div class="news-image" style="background-image:url('Img/Luxury\ Watch\ Collection.jpeg')"></div>
+            <div class="news-content">
+              <h3>Luxury Watch Collection</h3>
+              <p class="news-excerpt">
+                Exclusive limited-edition watches for collectors and enthusiasts — only on KlikBid.
+              </p>
+              <a href="#" class="btn small">View Collection</a>
+              <div class="news-controls">
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </aside>
+    </main>
+
+  <section class="section_about" id="features">
+  <div class="pillars">
+    <h2 class="section-title">Why Choose KlikBid?</h2>
+    <p class="subtitle">
+      We make online bidding <strong>simple</strong>, <strong>secure</strong>, and <strong>exciting</strong> for everyone.
+    </p>
+
+    <div class="pillar-grid">
+      <!-- Real-Time Bidding -->
+      <article class="pillar-card">
+        <i data-lucide="clock"></i>
+        <h3>Real-Time Bidding</h3>
+        <p>Enjoy live, real-time updates with zero lag — every second counts, and you’ll never miss a bid.</p>
+      </article>
+
+      <!-- Safe Transactions -->
+      <article class="pillar-card">
+        <i data-lucide="shield-check"></i>
+        <h3>Safe Transactions</h3>
+        <p>All transactions are encrypted and powered by trusted partners like GCash, Maya, and major banks.</p>
+      </article>
+
+      <!-- Mobile Ready -->
+      <article class="pillar-card">
+        <i data-lucide="smartphone"></i>
+        <h3>Mobile Ready</h3>
+        <p>Optimized for every screen — bid or sell anytime, anywhere with our responsive mobile-first design.</p>
+      </article>
+
+      <!-- Verified Sellers -->
+      <article class="pillar-card">
+        <i data-lucide="badge-check"></i>
+        <h3>Verified Sellers</h3>
+        <p>Every seller goes through a verification process, ensuring safer and more trustworthy transactions.</p>
+      </article>
+
+      <!-- 24/7 Support -->
+      <article class="pillar-card">
+        <i data-lucide="headphones"></i>
+        <h3>24/7 Customer Support</h3>
+        <p>Our dedicated support team is available around the clock to help you with bids, payments, or listings.</p>
+      </article>
+
+      <!-- Transparent System -->
+      <article class="pillar-card">
+        <i data-lucide="eye"></i>
+        <h3>Transparent Auctions</h3>
+        <p>Every auction is open and fair — you can see bids, prices, and winners in real time. No hidden tricks.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+ <section class="section_about" id="about">
+  <div class="about-container">
+    <div class="about-content">
+      <h2 class="section-title">About KlikBid</h2>
+      <p class="subtitle">
+        KlikBid is the Philippines’ premier online bidding platform — built for Filipino buyers and sellers. 
+        Whether you’re auctioning gadgets, vehicles, or collectibles, KlikBid connects you to a trusted marketplace 
+        where competition meets convenience.
+      </p>
+
+      <div class="about-pillars">
+        <div class="about-card">
+          <i data-lucide="target"></i>
+          <h3>Our Mission</h3>
+          <p>
+            To make online bidding simple, transparent, and accessible for everyone — while fostering 
+            a safe community of verified and trusted users.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i data-lucide="trophy"></i>
+          <h3>Our Vision</h3>
+          <p>
+            To become the leading auction platform in the Philippines — empowering users to buy and sell 
+            with confidence through innovation and trust.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-image">
+      <img src="Img/kilkbid.png"KlikBid Mission" />
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="section_work" id="how-it-works">
+  <div class="work-container">
+    <h2 class="section-title">How Does the System Work?</h2>
+    <p class="subtitle">
+      KlikBid offers a seamless, secure, and fun experience for both sellers and buyers — built to make 
+      every auction fair, fast, and transparent.
+    </p>
+
+    <div class="work-grid">
+      <!-- Sellers -->
+      <div class="work-card">
+        <i data-lucide="briefcase"></i>
+        <h3>For Sellers</h3>
+        <ul>
+          <li><strong>Create a listing:</strong> Upload photos, write a description, and set a starting price or “Buy Now” option.</li>
+          <li><strong>Manage your auction:</strong> Track bids in real time and receive notifications for new offers.</li>
+          <li><strong>Secure transactions:</strong> Payments go through GCash, Maya, or card, held safely until delivery is confirmed.</li>
+          <li><strong>Ship confidently:</strong> Coordinate with couriers and build your reputation through verified ratings.</li>
+        </ul>
+      </div>
+
+      <!-- Buyers -->
+      <div class="work-card">
+        <i data-lucide="shopping-bag"></i>
+        <h3>For Buyers</h3>
+        <ul>
+          <li><strong>Browse and bid:</strong> Explore categories and place bids higher than the current offer.</li>
+          <li><strong>Stay updated:</strong> Get instant alerts when outbid or leading.</li>
+          <li><strong>Use auto-bid:</strong> Automatically increase bids up to your limit.</li>
+          <li><strong>Win and receive:</strong> Pay securely and receive your item through trusted couriers.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="work-summary">
+      <p>
+        KlikBid makes online bidding <strong>fast, fun, and reliable</strong> — giving sellers a smooth way to 
+        reach buyers while keeping every transaction safe and transparent.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 4P’s MARKETING CONCEPT -->
+<section class="section_4ps" id="concepts">
+  <div class="pillars">
+    <h2>Concepts of 4P’s</h2>
+    <p class="subtitle">KlikBid applies the 4Ps of marketing to build trust and promote growth.</p>
+
+    <div class="pillar-grid">
+      <article class="pillar-card">
+        <i data-lucide="package"></i>
+        <h3>Product</h3>
+        <p>
+          KlikBid is an online auction platform designed to make bidding faster, simpler, and more accessible. It features live updates, a modern interface, and an engaging user experience.
+        </p>
+      </article>
+
+      <article class="pillar-card">
+        <i data-lucide="credit-card"></i>
+        <h3>Price</h3>
+        <p>
+          KlikBid generates revenue through ad placements and transaction fees — creating sustainable connections between platforms and users.
+        </p>
+      </article>
+
+      <article class="pillar-card">
+        <i data-lucide="map-pin"></i>
+        <h3>Place</h3>
+        <p>
+          Accessible anywhere in the Philippines through mobile and web. All you need is an internet connection and a smart device to start bidding.
+        </p>
+      </article>
+
+      <article class="pillar-card">
+        <i data-lucide="megaphone"></i>
+        <h3>Promotion</h3>
+        <p>
+          KlikBid partners with Filipino influencers, promotes on social media, and collaborates with local businesses to create buzz and drive adoption.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- User Reviews (demo/sample reviews) -->
+<section class="reviews-section" id="reviews" aria-label="User reviews">
+  <div class="reviews-inner">
+    <h2 class="reviews-title">What users are saying ✨</h2>
+    <p class="reviews-sub">Real-feeling sample reviews for UI/demo purposes.</p>
+
+    <div class="review-grid">
+      <article class="review-card">
+        <div class="review-header">
+          <div class="avatar">KM</div>
+          <div>
+            <div class="review-name">Karla M.</div>
+            <div class="rating" aria-hidden="true">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">Fast, smooth bidding — won an iPhone at an amazing price. Secure payments and quick support. Highly recommended!</p>
+        <time class="review-date">— Sep 19, 2025</time>
+      </article>
+
+      <article class="review-card">
+        <div class="review-header">
+          <div class="avatar">JR</div>
+          <div>
+            <div class="review-name">Jomar R.</div>
+            <div class="rating">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">Clean UI and real-time updates — never missed a bid. Seller verification made me feel safe buying bigger items.</p>
+        <time class="review-date">— Oct 02, 2025</time>
+      </article>
+
+      <article class="review-card">
+        <div class="review-header">
+          <div class="avatar">AN</div>
+          <div>
+            <div class="review-name">Ana N.</div>
+            <div class="rating">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">Great customer support and transparent auctions. Auto-bid is a life-saver for busy days.</p>
+        <time class="review-date">— Aug 29, 2025</time>
+      </article>
+
+      <article class="review-card">
+        <div class="review-header">
+          <div class="avatar">TG</div>
+          <div>
+            <div class="review-name">Tess G.</div>
+            <div class="rating">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">Bought a scooter for much less than market price. Delivery was smooth and tracking worked well.</p>
+        <time class="review-date">— Jul 12, 2025</time>
+      </article>
+
+      <article class="review-card">
+        <div class="review-header">
+          <div class="avatar">PC</div>
+          <div>
+            <div class="review-name">Pablo C.</div>
+            <div class="rating">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">Excellent platform for collectors — found rare pieces and the bidding felt fair and transparent.</p>
+        <time class="review-date">— Jun 02, 2025</time>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CREATOR / TEAM SECTION -->
+<section class="section_creators" id="creators">
+  <h2>Meet the Team</h2>
+  <p class="subtitle">The creative minds behind KlikBid</p>
+
+  <div class="team-row">
+    <div class="team-card">
+      <img src="Img/karl.jpg" alt="Creator 1">
+      <h3>Karl Ancel</h3>
+      <p>Developer</p>
+    </div>
+
+    <div class="team-card">
+      <img src="Img/kent.jpg" alt="Creator 2">
+      <h3>Kent </h3>
+      <p>UI/UX Designer</p>
+    </div>
+
+    <div class="team-card">
+      <img src="Img/ash.jpg" alt="Creator 3">
+      <h3>Ash</h3>
+      <p>Graphic Designer</p>
+    </div>
+
+    <div class="team-card">
+      <img src="Img/aljosh.jpg" alt="Creator 4">
+      <h3>Aljosh</h3>
+      <p>Frontend Developer</p>
+    </div>
+
+    <div class="team-card">
+      <img src="Img/migs.jpg" alt="Creator 5">
+      <h3>Mhigz</h3>
+      <p>Project Manager</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section class="section_contact" id="contact">
+  <div class="contact-container">
+    <h2 class="contact-title">💬 Get In Touch</h2>
+    <p class="contact-subtitle">
+      Got questions, feedback, or partnership ideas? We’d love to connect with you!
+    </p>
+
+    <div class="contact-details">
+      <div class="contact-item">
+        <span class="label">Email:</span>
+        <a href="mailto:support@klikbid.com" class="link">support@klikbid.com</a>
+      </div>
+
+      <div class="contact-item">
+        <span class="label">Facebook:</span>
+        <a href="https://facebook.com/klikbid" target="_blank" class="link">facebook.com/klikbid</a>
+      </div>
+
+      <div class="contact-item">
+        <span class="label">Instagram:</span>
+        <a href="https://instagram.com/klikbid" target="_blank" class="link">instagram.com/klikbid</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <script src="index.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

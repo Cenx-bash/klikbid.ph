@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KlikBid | Auction Item</title>
+  <link rel="stylesheet" href="bidding.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="Img/kilkbid.png" alt="KlikBid Logo">
+      <h2>KlikBid</h2>
+    </div>
+
+    <nav class="nav-dots">
+      <a href="#home" class="nav-item active"><i data-lucide="home"></i><span>Home</span></a>
+      <a href="#auctions" class="nav-item"><i data-lucide="gavel"></i><span>Auctions</span></a>
+      <a href="#features" class="nav-item"><i data-lucide="sparkles"></i><span>Features</span></a>
+      <a href="#about" class="nav-item"><i data-lucide="info"></i><span>About</span></a>
+      <a href="#contact" class="nav-item"><i data-lucide="mail"></i><span>Contact</span></a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="https://facebook.com" class="social" target="_blank"><i data-lucide="facebook"></i></a>
+      <a href="https://instagram.com" class="social" target="_blank"><i data-lucide="instagram"></i></a>
+    </div>
+  </aside>
+
+  <!-- Main Auction Page -->
+  <main class="auction-page">
+    <div class="auction-container">
+      <!-- Left side (images) -->
+      <div class="auction-left">
+        <div class="image-gallery">
+          <img src="Img/iphon15.jpeg" alt="Auction Item" class="main-img">
+        </div>
+        <div class="thumbnails">
+          <img src="Img/iphon15.jpeg" alt="thumb1">
+          <img src="Img/iphon15.jpeg" alt="thumb2">
+          <img src="Img/iphon15.jpeg" alt="thumb3">
+        </div>
+      </div>
+
+      <!-- Right side (info + bidding) -->
+      <div class="auction-right">
+        <h2>Charity Auction! OVER THE TOP Helicopters and Golf Package</h2>
+        <p class="subtext">
+          <i data-lucide="clock"></i> Closes: Sun 27th Aug, 12:00pm <br>
+          <span id="countdown"></span>
+        </p>
+
+        <button class="watchlist-btn"><i data-lucide="star"></i> Add to Watchlist</button>
+
+        <div class="bidding-box">
+          <p class="current-bid-label">Current Bid:</p>
+          <h1 id="currentBid">₱1,999</h1>
+
+          <!-- Quick bid buttons -->
+          <div class="quick-bids">
+            <button class="bid-btn" data-amount="100">Bid ₱100</button>
+            <button class="bid-btn" data-amount="200">Bid ₱200</button>
+            <button class="bid-btn" data-amount="500">Bid ₱500</button>
+            <button class="bid-btn" data-amount="1000">Bid ₱1000</button>
+          </div>
+
+          <!-- Custom bid -->
+          <div class="custom-bid">
+            <input type="number" id="customBid" placeholder="Enter custom bid (₱)" min="1">
+            <button id="customBidBtn">Place Custom Bid</button>
+          </div>
+
+          <p id="message"></p>
+          <small>Reserve met | 1 bid so far</small>
+        </div>
+
+        <p class="seller">Seller: <strong>klikbid_official</strong> | 100% positive feedback ✅</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="bidding.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
