@@ -29,5 +29,5 @@ It combines a clean design, smooth performance, and engaging live features — g
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/<your-username>/kilkbid.git
+   git clone https://github.com/Cenx-Bash/kilkbid.git
    cd kilkbid
